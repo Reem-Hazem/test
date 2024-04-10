@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main-color: #0aad0a;
+    --light-color: #f0f3f2;
+    --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+      rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+      rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+    --font-family: "Pacifico";
+  }
+  body{
+    font-family: var(--font-family);
+  }
+button{
+    background-color: var(--main-color);
+    padding: 7px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
